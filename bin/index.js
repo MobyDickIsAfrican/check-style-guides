@@ -5,7 +5,7 @@ const readline = require('readline');
 const STYLE_GUIDE = {
     equivalenceRegex: [/\w+\s=\w+;/g, /\w+=\s\w+;/],
 };
-const currentDirectory = process.cwd();
+const currentDirectory = process.cwd(); //get directory in which cli comman is executed
 
 fs.readdir(currentDirectory, (err, files) => {
     if(err){

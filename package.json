@@ -1,0 +1,14 @@
+{
+  "name": "check-styles-cli",
+  "version": "1.0.0",
+  "description": "check whether your files meet your style guides",
+  "main": "bin/index.js",
+  "bin": {
+    "check": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luvo Dlulisa",
+  "license": "ISC"
+}
